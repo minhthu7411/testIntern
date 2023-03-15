@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    width: 150px;
+    background-color: #191718;
+}
+
+.sidebar__list a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.sidebar__list li {
+    border-bottom: 1px solid #5C5C5C;
+}
+
+
+.sidebar__item-link {
+    display: block;
+    padding: 14px 0 11px 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sidebar__item-link:hover {
+    background-color: #5C5C5C;
+    color: #FFFFFF;
+}
+
+.sidebar__item .active {
+    color: #FFFFFF;
+}
+
+.content {
+    height: 100%;
+    width: calc(100% - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 129px 0 129px;
+}
+
+.logo {
+    padding: 20px 0 30px 0;
+}
+
+.img-logo {
+    width: 310px;
+    height: 122px;
+}
+
+.box-1 {
+    background-color: #EFEFEF;
+    color: #000000;
+}
+
+.box-1__heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    padding: 38px 0 18px 0;
+}
+
+.box-1__content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    padding: 0 269px 38px 269px;
+}
+
+.box-2 {
+    display: flex;
+    padding-top: 40px;
+    color: #000000;
+}
+
+.group {
+    padding-right: 50px;
+}
+
+.group:last-child {
+    padding-right: 0px;
+}
+
+.group__heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-bottom: 18px;
+
+}
+
+.group__content-1 {
+    display: flex;
+}
+
+.group__img {
+    width: 128px;
+    height: 128px;
+}
+
+.group__info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.group__content-2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.footer {
+    padding-top: 182px;
+}
+
+.copyright {
+    display: block;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #3E3E3E;
+}
